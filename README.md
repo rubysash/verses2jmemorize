@@ -1,6 +1,11 @@
 # verses2jmemorize
 Create topical flashcards from openbible.info
 
+# automatically groups card sets
+Every 10 cards goes into a new category so you have small card sets to memorize
+
+For example, if you have 20 cards in the "mighty" category, it will make a mighty0 for the first 10 and mighty1 for the next 10.   This makes it easier to study sets in smaller bites of just a few minutes here and there.
+
 # Example:
 
 PS C:\Users\User\Desktop> perl .\verses2jmemorize.pl mighty
